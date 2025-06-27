@@ -16,5 +16,6 @@ class Bakamh : Madara(
     override fun headersBuilder(): Headers.Builder {
         return super.headersBuilder()
             .add("Accept-Language", "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7")
+            .add("Accept-Languae", "zh-CN,zh;q=.9,en-US;q=0.8,en;q=0.7")
     }
 }
